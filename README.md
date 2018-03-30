@@ -5,7 +5,7 @@
     + yum install http://rpms.remirepo.net/enterprise/remi-release-6.rpm
     + yum install yum-utils
     + yum-config-manager --enable remi-php72
-    + yum install php php-devel php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo gcc libtool pcre-devel
+    + yum install php php-devel php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo gcc libtool pcre-devel php-apcu php-apcu-bc
     + git clone --depth=1 "git://github.com/phalcon/cphalcon.git"
         - cd cphalcon/build
         - sudo ./install

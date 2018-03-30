@@ -4,18 +4,13 @@
   <el-dialog
     :visible.sync="editFormState"
     :before-close="onClose"
-    width="80%"
     :lock-scroll="true"
     v-on:open="onOpen"
     v-on:close="onClosed"
     >
-    <el-row :gutter="20">
-      <el-col :md="5" :xs="24">
-        <h2>{{ $t('info.edit.description') }}</h2>
-        <p>{{ $t('info.edit.extraDescription') }}</p>
-      </el-col>
-      <el-col :md="19" :xs="24">
-        <el-col :md="10">
+    <el-row>
+      <el-col :md="24" :xs="24">
+        <el-col :md="24">
           <el-form autoComplete="on" label-position="left" class="create-form" :model="form" :rules="rules" ref="editForm">
             <el-form-item prop="fullname" :label="$t('label.name')">
               <el-input type="text" size="small" v-model="form.fullname"></el-input>

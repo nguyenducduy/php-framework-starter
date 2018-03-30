@@ -14,8 +14,8 @@ metaDataDir: /app/storage/cache/metadata/
 cache:
   lifetime: 86400
   adapter: Apc
-    opts:
-      prefix: _framework_
+  opts:
+    prefix: _framework_
 users:
   directory: /app/storage/files/users/
   minsize: 100
