@@ -7,7 +7,7 @@ class CreateUserDevicesTable extends AbstractMigration
 {
     public function up()
     {
-        $this->execute('
+        $this->execute("
             CREATE TABLE `fly_user_devices` (
             `u_id` int(11) DEFAULT '0',
             `ud_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -28,6 +28,6 @@ class CreateUserDevicesTable extends AbstractMigration
             KEY `ud_ip_address` (`ud_ip_address`),
             KEY `ud_is_robot` (`ud_is_robot`)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-        ');
+        ");
     }
 }
