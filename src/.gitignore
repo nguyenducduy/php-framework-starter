@@ -1,0 +1,11 @@
+/vendor/
+composer.lock
+app/modules/
+app/storage/cache/data/
+app/storage/cache/annotations/
+app/storage/cache/metadata/
+app/storage/files/
+app/storage/logs/
+app/views/node_modules/
+app/views/.nuxt/
+app/views/dist/

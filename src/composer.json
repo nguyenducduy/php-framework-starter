@@ -1,0 +1,19 @@
+{
+  "name": "shirou/framework-demo",
+  "require": {
+    "shirou/php-framework": "*",
+    "yohang88/letter-avatar": "^1.0",
+    "robmorgan/phinx": "^0.9.2",
+    "fzaninotto/faker": "^1.7",
+    "jenssegers/agent": "^2.6"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../php-framework",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
+}
