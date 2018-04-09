@@ -1,0 +1,8 @@
+apps:
+  - script   : ./node_modules/nuxt/bin/nuxt-start
+    name     : 'fw'
+    instances: 4
+    exec_mode: cluster
+    env    :
+      NODE_ENV: prod
+
